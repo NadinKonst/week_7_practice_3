@@ -1,0 +1,69 @@
+.main_info {
+  max-width: 670px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+  .img {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .icon_color {
+    width: 11.391px;
+    height: 13px;
+    flex-shrink: 0;
+  }
+  .icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    gap: 5px;
+  }
+  .group_icons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.news {
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 670px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+
+.team {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cards {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  max-width: 670px;
+  margin: 0 auto;
+  column-gap: 70px;
+  @media screen and (max-width: 320px) {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 300px;
+    height: 400px;
+  }
+}
